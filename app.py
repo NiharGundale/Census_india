@@ -21,7 +21,7 @@ primary=st.sidebar.selectbox('Select Primary parameter',p_list)
 secoundary=st.sidebar.selectbox('Select Secoundary parameter',p_list)
 
 
-plot=st.sidebar.button('Visulize')
+plot=st.sidebar.button('Visualize')
 
 if plot:
     st.text('Size Represent Primary Parameter')
